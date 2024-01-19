@@ -13,8 +13,14 @@
             justify-content: center;
             height: 100vh;
             overflow: hidden;
-            background: url('background.png') no-repeat center center fixed;
+            background: url('assets/background/default.gif') no-repeat center center fixed;
             background-size: cover;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background-image: url(assets/background/mobile.gif);
+            }
         }
     </style>
 </head>
